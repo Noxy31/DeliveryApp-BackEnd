@@ -1,0 +1,30 @@
+{
+  "name": "deliveryapp-backend",
+  "version": "1.0.0",
+  "description": "1. Run : python -m venv venv\r 2. Run : pip install -r requirements.txt",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "eslint": "^9.13.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}
